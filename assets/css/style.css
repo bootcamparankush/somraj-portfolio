@@ -172,7 +172,6 @@ a {
     width:600px;
   }
   
-  /* Cards are split into two columns at 992px or smaller */
   @media screen and (max-width: 992px) {
     .card {
       width: 50%;
@@ -181,14 +180,38 @@ a {
     header {
       background: orange;
     }
+
     #firstcard {
-      width: 20%;
+      /* width: 20%; */
+      flex: 0 0 400px;
     }
   }
-  
     .nav a {
       float: none;
       width: 100%;
       background: blue;
     }
 
+    /* Cards are stacked on top of each other at 768px or smaller */
+@media screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+  /* Change the header color */
+  header {
+    background: #8ac4ff;
+  }
+  .overlay {
+    background-color: gray;
+  }
+
+  @media screen and (max-width: 992px) {
+    .card {
+      width: 50%;
+    }
+    /* Change the header color */
+    header {
+      background: #772014;
+    }
+  }
+}
