@@ -118,7 +118,21 @@ a {
     background-color:lightgrey;
   }
 
-.card {
+
+  #firstcard {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 10px;
+    float: left;
+    width: 80%;
+    flex: 0 0 600px;
+    box-shadow: 10px 10px 5px gray;
+    margin: 20px;
+  }
+
+
+  .card {
     border-style: solid;
     border-width: 1px;
     border-radius: 50px;
@@ -130,10 +144,8 @@ a {
     margin: 20px;
   }
   
-  #firstcard{
-    width:75%;
-    height:40%;
-  }
+  
+
   .card header {
     padding: 20px;
   }
@@ -148,7 +160,7 @@ a {
   }
 
   .projects {
-    flex: 3;
+    flex:3;
     background-color: #fff;
     padding: 75px;
     display: flex;
@@ -167,7 +179,16 @@ a {
     }
     /* Change the header color */
     header {
-      background: brown;
+      background: orange;
+    }
+    #firstcard {
+      width: 20%;
     }
   }
   
+    .nav a {
+      float: none;
+      width: 100%;
+      background: blue;
+    }
+
