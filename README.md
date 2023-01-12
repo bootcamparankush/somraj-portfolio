@@ -5,4 +5,6 @@ I addition, I plan to enhance my portfolio with frequent updates with additional
 
 I have also provided direct links to my resume, linkedin profile, contact details. See below a screen shot of the webpage I developed. 
 
+See below the link for my portfolio deployed URL - https://bootcamparankush.github.io/somraj-portfolio/
+
 ![Untitled 2](https://user-images.githubusercontent.com/120338398/211409690-1ee01336-bf1e-474c-aa2b-bdd412c9b52a.png)
